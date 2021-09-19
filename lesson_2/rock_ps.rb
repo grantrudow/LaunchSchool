@@ -50,7 +50,6 @@ loop do
                   'Invalid choice'
                 end
 
-
       if VALID_CHOICES.include?(choice)
         break
       else
@@ -87,6 +86,5 @@ loop do
   answer = gets.chomp
   break unless answer.downcase.start_with?('y')
 end
-
 
 prompt("Thank you for playing!")
