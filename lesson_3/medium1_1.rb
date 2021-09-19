@@ -1,0 +1,1 @@
+10.times { |indent| puts ("  " * indent) + "The Flintstones Rock!" }
